@@ -14,6 +14,7 @@
 		EA347257279EF27300276CC2 /* Swift_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA347256279EF27300276CC2 /* Swift_AnimationTests.swift */; };
 		EA347261279EF27300276CC2 /* Swift_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA347260279EF27300276CC2 /* Swift_AnimationUITests.swift */; };
 		EA347263279EF27300276CC2 /* Swift_AnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA347262279EF27300276CC2 /* Swift_AnimationUITestsLaunchTests.swift */; };
+		EA347271279EF59400276CC2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA347270279EF59400276CC2 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EA34725C279EF27300276CC2 /* Swift-AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA347260279EF27300276CC2 /* Swift_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AnimationUITests.swift; sourceTree = "<group>"; };
 		EA347262279EF27300276CC2 /* Swift_AnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA347270279EF59400276CC2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				EA347245279EF27200276CC2 /* Swift_AnimationApp.swift */,
-				EA347247279EF27200276CC2 /* ContentView.swift */,
+				EA34726F279EF51F00276CC2 /* Views */,
 				EA347249279EF27300276CC2 /* Assets.xcassets */,
 				EA34724B279EF27300276CC2 /* Preview Content */,
 			);
@@ -125,6 +127,15 @@
 				EA347262279EF27300276CC2 /* Swift_AnimationUITestsLaunchTests.swift */,
 			);
 			path = "Swift-AnimationUITests";
+			sourceTree = "<group>";
+		};
+		EA34726F279EF51F00276CC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA347247279EF27200276CC2 /* ContentView.swift */,
+				EA347270279EF59400276CC2 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA347271279EF59400276CC2 /* HomeView.swift in Sources */,
 				EA347248279EF27200276CC2 /* ContentView.swift in Sources */,
 				EA347246279EF27200276CC2 /* Swift_AnimationApp.swift in Sources */,
 			);
